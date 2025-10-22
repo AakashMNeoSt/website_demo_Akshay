@@ -183,6 +183,73 @@
       display: table;
       clear: both;
     }
+
+     @media (max-width: 992px) {
+      header {
+        height: auto;
+        padding: 3rem 1rem;
+      }
+
+      header img.law-logo {
+        position: static;
+        width: 70px;
+        margin-bottom: 1rem;
+      }
+
+      .nav-buttons {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.7rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .image-right {
+        float: none;
+        display: block;
+        margin: 1rem auto;
+        max-width: 90%;
+      }
+
+      .img-gallery img {
+        flex: 1 1 45%;
+        max-width: 45%;
+      }
+
+      .nav-buttons {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .nav-buttons .btn {
+        width: 80%;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+
+      h3, p, li {
+        font-size: 1rem;
+      }
+
+      .img-gallery img {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+
+      #consultation-form iframe {
+        height: 800px;
+      }
+    }
+
   </style>
 </head>
 <body>
