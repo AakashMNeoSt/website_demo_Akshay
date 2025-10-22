@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akshay Malvankar - Advocate Bombay High Court</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* General Styles */
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      color: #000;
+      background: url("images/wallpaper5.jpg") no-repeat center center fixed;
+      background-size: cover;
+      scroll-behavior: smooth;
+    }
+
+    /* Header */
+    header {
+      position: relative;
+      height: 400px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: url("images/bombay.jpg") no-repeat center center;
+      background-size: cover;
+    }
+
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 0;
+    }
+
+    header h1,
+    header h3,
+    header p {
+      z-index: 1;
+      margin: 0.5rem 0;
+    }
+
+    header h3 {
+      color: #ffffff;
+    }
+
+    header img.law-logo {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      width: 80px;
+      height: auto;
+      z-index: 2;
+    }
+
+    /* Navigation Buttons */
+    .nav-buttons {
+      margin-top: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      z-index: 1;
+      position: relative;
+    }
+
+    .nav-buttons .btn {
+      background-color: rgba(0,0,0,0.6);
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .nav-buttons .btn:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    /* Sections */
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      border-bottom: 2px solid gray;
+      padding-bottom: 0.3rem;
+      color: #333;
+    }
+
+    h3 {
+      color: #444;
+      margin-top: 1rem;
+    }
+
+    ul {
+      list-style: disc;
+      margin-left: 2rem;
+      color: #333;
+    }
+
+    /* Images */
+    .image-right {
+      float: right;
+      margin-left: 2rem;
+      width: 300px;
+      height: auto;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .highlighted-img {
+      border: 4px solid #000;
+      box-shadow: 0 0 15px rgba(0,0,0,0.6);
+      height: auto !important;
+      max-height: 400px;
+    }
+
+    .img-gallery {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      padding: 2rem 0;
+    }
+
+    .img-gallery img {
+      flex: 1 1 30%;
+      max-width: 30%;
+      height: 250px;
+      object-fit: cover;
+    }
+
+    /* Contact & Form */
+    .contact {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .contact a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    #consultation-form {
+      padding: 60px 20px;
+      background-color: #fff;
+      color: #000;
+      border-top: 2px solid #000;
+    }
+
+    #consultation-form iframe {
+      width: 100%;
+      height: 1200px;
+      border: 2px solid #000;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      background-color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      color: white;
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.jpg" alt="logo" class="law-logo">
+    <h1>Adv. Akshay Malvankar</h1>
+    <h3>Advocate Bombay High Court | Litigation, Arbitration & Corporate Law</h3>
+    <p>"Dedicated to clarity in law and creativity in expression."</p>
+
+    <div class="nav-buttons">
+      <a href="#about-me" class="btn">About Me</a>
+      <a href="#legal-experience" class="btn">Legal Experience</a>
+      <a href="#moments-milestones" class="btn">Moments & Milestones</a>
+      <a href="#consultation-form" class="btn">Book a Consultation</a>
+    </div>
+  </header>
+
+  <section id="about-me" class="clearfix">
+    <h2>About Me</h2>
+    <img src="images/waiting-opportunity.jpg" class="image-right highlighted-img">
+    <p>Enrolled in 2025 with the Maharashtra & Goa State Bar Council, I practice before subordinate courts with a focus on litigation, contract law, and data protection. My experience spans divorce matters, cheque dishonor cases, RTI drafting, and legal notices, reflecting a disciplined approach to drafting and statutory compliance.</p>
+    <ul>
+      <li>Before entering full-time legal practice, I gained extensive corporate experience supporting international operations across the U.S., U.K., and Australia in telecom, healthcare, legal, and mortgage sectors — strengthening my communication skills and understanding of global service protocols.</li>
+      <li>I hold a Bachelor of Laws (LL.B) and a Bachelor of Commerce (B.Com, Accounting and Finance) from the University of Mumbai.</li>
+      <li>I am currently pursuing an LL.M. in Business Law, aiming to integrate corporate advisory and litigation with an emphasis on contract drafting, compliance, and arbitration. My goal is to deliver clear, strategic, and client-focused legal solutions.</li>
+    </ul>
+  </section>
+
+  <section id="legal-experience" class="clearfix">
+    <h2>Legal Experience</h2>
+    <img src="images/cafe.jpg" alt="Legal Arguments" class="image-right">
+    <ul>
+      <li><strong>SP Associates, Advocates & Legal Consultants:</strong> (Jun 2025 – Present) Handling matters related to divorce, cheque dishonor, heirship, property, and civil disputes. Experienced in litigation, legal drafting, statutory compliance, and client advisory.</li>
+      <li><strong>NBS Legal – Advocates & Consultants:</strong> (Sep 2024 – Nov 2024) Assisted in legal research, contract drafting, and case preparation across civil, family, and arbitration matters. Participated in client meetings, RTI drafting, and dispute resolution strategies.</li>
+      <li><strong>TaskUs (LegalZoom – U.S.):</strong> (Feb 2024 – Apr 2024) Provided contract drafting, form review, and compliance support for U.S. clients in business formation, wills, and IP filings.</li>
+      <li><strong>Corporate Experience:</strong> (2016 – 2023) Worked with Accenture, TSI, GeBBS Healthcare, Sutherland, and Firstsource, supporting international operations across the U.S. and U.K. Gained experience in documentation, compliance, data protection, and client communication.</li>
+    </ul>
+  </section>
+
+  <section id="moments-milestones" class="clearfix">
+    <h2>Moments & Milestones</h2>
+    <div>
+      <h3>Achievements & Publications</h3>
+      <ul>
+        <li><strong>National Mooting Success:</strong> Served as Mooter 2 in two national competitions, reaching the Final Round in both while presenting arguments on complex criminal law matters (e.g., murder/IPC). Also gained experience as a Researcher in a third national moot, focusing on statutory interpretation and memorial drafting.</li>
+        <li><strong>Legal Publications:</strong>
+          <ul>
+            <li><em>Occupational Safety, Health and Working Conditions of Labour</em> (Satyam Law International)</li>
+            <li><em>A Dummy’s Guide to Indian Legal Principles</em></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <div class="img-gallery">
+      <img src="images/gateway.jpg" alt="Gateway of India" class="highlighted-img">
+      <img src="images/highcourt.jpg" alt="Bombay High Court" class="highlighted-img">
+      <img src="images/instagram.jpg" alt="Formal Event" class="highlighted-img">
+    </div>
+  </section>
+
+  <div class="contact">
+    <p>Email: <a href="mailto:akshaymalvankar.law@gmail.com">akshaymalvankar.law@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/akshaymalvankar" target="_blank">linkedin.com/in/akshaymalvankar</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/adv.akshaymalvankar" target="_blank">instagram.com/adv.akshaymalvankar/</a></p>
+    <p>Youtube: <a href="https://www.youtube.com/@yourlegalcoach" target="_blank">youtube.com/@yourlegalcoach</a></p>
+ <p>Address: <a href="https://share.google/7CStq8rHa9NwBFJKm" target="_blank">Wing B2, Konark Heaven, Shop no. 3, Building no. B, Taluka, Panvel, Chindhran, Navi Mumbai, Maharashtra 410208</a></p>
+    <p>Phone: +91-9773663370</p>
+  </div>
+
+  <section id="consultation-form">
+    <h2 style="text-align:center;">Book a Consultation</h2>
+    <p style="text-align:center;">Please fill out the form below. I’ll get in touch with you shortly.</p>
+    <iframe 
+      src="https://docs.google.com/forms/d/e/1FAIpQLSdFFqdAuvjKdW6gi_DiS_XDwplbGppxp3beDiPjfbAHl41SDQ/viewform?embedded=true">
+      Loading…
+    </iframe>
+  </section>
+
+  <footer>
+    &copy; 2025 Adv. Akshay Malvankar | All Rights Reserved
+  </footer>
+
+</body>
+</html>
